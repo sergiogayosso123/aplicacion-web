@@ -1,0 +1,76 @@
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>tablas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border: #56408b 1px solid;
+    }
+    td {
+      border: blue 1px solid;
+    }
+  </style>
+</head>
+
+<body>
+  <table ALIGN=center>
+    <tbody>
+      <tr>
+        <td colspan="4" ALIGN=center>ETIQUETAS</td>
+      <tr>
+        <td>ETIQUETAS</td>
+        <td>DESCRIPCION</td>
+        <td  ALIGN=center>EJEMPLOS DE USO</td>
+      </tr>
+      <tr>
+        <td>INPUT</td>
+        <td>El elemento HTML &lt;input&gt; se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos
+            del usuario.Hay disponible una amplia variedad de tipos de datos de entrada y widgets de control, que dependen del dispositivo y
+            el agente de usuario (user agent).<br>
+            El elemento &lt;input&gt; es uno de los más potentes y complejos en todo HTML debido a la gran
+            cantidad de combinaciones de tipos y atributos de entrada.</td>
+        <td>&lt;input type="text" name="nombre" size="40"&gt;</td>
+      </tr>
+      <tr>
+        <td>SELECT</td>
+        <td>El elemento select (&lt;select&gt;) de HTML representa un control que muestra un menú de opciones.<br>
+            Las opciones contenidas en el menú son representadas por elementos &lt;option&gt;, los cuales pueden ser agrupados por elementos &lt;optgroup&gt;.<br>
+            La opcion puede estar preseleccionada por el usuario.</td>
+        <td>&lt;select name="select"&gt;
+            &lt;option value="value1"&gt;Value 1&lt;/option&gt; 
+            &lt;option value="value2" selected>Value 2&lt;/option&gt;
+            &lt;option value="value3">Value 3&lt;/option&gt;
+            &lt;/select&gt;</td>
+      </tr>
+      <tr>
+        <td>TEXTAREA</td>
+        <td>El elemento &lt;textarea&gt; representa un campo para la entrada de texto multilínea. 
+            El control asociado a este campo es una caja de texto que permite a los usuarios editar múltiples líneas de texto regular.
+            Los controles &lt;textarea&gt; son útiles para recolectar o editar líneas largas de texto como mensajes, contenido de archivos, listas reseñas, artículos, etc.</td>
+        <td>&lt;form action="../../form-result.php" target="_blank"><br>
+
+            &lt;p&gt;Mensaje para el autor:&lt;/p&gt;<br>
+          
+            &lt;p&gt;&lt;textarea name="mensaje" placeholder="Comparte tu opinión con el autor!">&lt;/textarea>&lt;/p&gt;<br>
+          
+                &lt;p&gt;&lt;input type="submit" value="Enviar mensaje"&gt;&lt;/p&gt;<br>
+          
+                &lt;/form&gt;&lt;/td&gt;<br>
+      </tr>
+      <tr>
+        <td>RADIO</td>
+        <td>Los botones de radio se usan para permitirle al usuario elegir una de las opciones listadas.
+            Para poder crear este tipo de campo, primero debemos darle un nombre que se usara para todo el grupo.</td>
+        <td>&lt;p&gt;Elegir nacionalidad &lt;/p&gt;<br>
+            &lt;p&gt;<br>
+                Española: &lt;input type="radio" name="citizenship" /&gt;&lt;br /&gt;<br>
+                Rumana: &lt;input type="radio" name="citizenship" /&gt;&lt;br /&gt;<br>
+                Inglesa: &lt;input type="radio" name="citizenship" /&gt;<br>
+                &lt;/p&gt;<br>
+            </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
